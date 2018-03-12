@@ -4,6 +4,8 @@
 
 ##### HTML5, ES6/ES7, SCSS
 
+[Webpack dev server](https://github.com/webpack/webpack-dev-server) Development server that provides live reloading.
+
 [HappyPack](https://github.com/amireh/happypack) speeding up development cycle making use of multiple VM's.
 
 [HardSourceWebpackPlugin](https://github.com/mzgoddard/hard-source-webpack-plugin) speeding up development cycle making use of caching. 
@@ -25,9 +27,6 @@ Added versioning for your css and js.
 
 ### Build setup
 `npm run build`
-
-### NodeJS Development server
-`npm run server`
 
 #### Information
 

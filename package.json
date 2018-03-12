@@ -1,11 +1,10 @@
 {
-  "name": "hello-great-works-website",
+  "name": "hello-great-works-boilerplate",
   "version": "1.0.0",
   "description": "webpack 4 boilerplate on steroids, uses happypack for making use of threads, hard source plugin for caching, tree shaking, versioning for your css and js and many more",
-  "main": "index.js",
+  "main": "public/js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --open",
+    "start": "npm run dev",
     "dev": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --open",
     "build": "webpack -p --config ./wepback.config.prod.js"
   },
