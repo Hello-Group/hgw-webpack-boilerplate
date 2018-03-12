@@ -33,6 +33,4 @@ Added versioning for your css and js.
 
 If you need to add new markup, update array in `htmlfiles.js` and create new file in `src/markup/`
 
-If you want to add new subfolder to existing root folder add them into `public`, Node routing will take care of the rest.
-
 No need to add link rel or script tags in your markup, they will be injected via webpack.
