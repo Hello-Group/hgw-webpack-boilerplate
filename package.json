@@ -8,6 +8,10 @@
     "dev": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --open",
     "build": "webpack -p --config ./wepback.config.prod.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hello-Group/hgw-webpack-boilerplate.git"
+  },
   "author": "Stefan Vrskovy",
   "license": "MIT",
   "devDependencies": {
