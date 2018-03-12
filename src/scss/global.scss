@@ -1,0 +1,13 @@
+$color: black;
+html {
+  background: $color;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: bisque;
+  transition: all 250ms;
+  display: flex;
+}

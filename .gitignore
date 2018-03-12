@@ -1,0 +1,10 @@
+node_modules/
+.*
+!.*/
+!/.gitignore
+**/.DS_Store
+*.DS_Store
+.DS_Store
+public/dist/*
+.cache-leader/*
+npm-debug.log

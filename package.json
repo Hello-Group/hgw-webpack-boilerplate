@@ -1,0 +1,35 @@
+{
+  "name": "hello-great-works-website",
+  "version": "1.0.0",
+  "description": "webpack 4 boilerplate on steroids, uses happypack for making use of threads, hard source plugin for caching, tree shaking, versioning for your css and js and many more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --open",
+    "dev": "webpack-dev-server --config ./webpack.config.dev.js --port 3000 --open",
+    "build": "webpack -p --config ./wepback.config.prod.js"
+  },
+  "author": "Stefan Vrskovy",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "compression-webpack-plugin": "^1.1.11",
+    "css-loader": "^0.28.10",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "happypack": "^5.0.0-beta.1",
+    "hard-source-webpack-plugin": "^0.6.4",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.17.1",
+    "postcss-loader": "^2.1.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "uglify-js": "^3.3.14",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
