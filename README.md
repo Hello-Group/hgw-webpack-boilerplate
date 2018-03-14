@@ -20,6 +20,10 @@
 
 [Clean for WebPack](https://github.com/johnagan/clean-webpack-plugin) A webpack plugin to remove/clean your build folder(s) before building.
 
+[postcss-pxtorem](https://github.com/cuth/postcss-pxtorem)
+A plugin for PostCSS that generates rem units from pixel units.
+
+
 Added versioning for your css and js. 
 
 ### Development webpack server
