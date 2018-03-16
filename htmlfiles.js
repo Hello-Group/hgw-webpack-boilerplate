@@ -1,4 +1,1 @@
-module.exports = [
-  'index.html',
-  'about.html'
-]
+module.exports=["about.html","index.html","lol"]

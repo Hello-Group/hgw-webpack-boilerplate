@@ -26,13 +26,13 @@ A plugin for PostCSS that generates rem units from pixel units.
 Added versioning for your css and js. 
 
 ### Development webpack server
-`npm i & npm run dev` 
+`npm i && npm run dev` 
 
 ### Build setup
 `npm run build`
 
 #### Information
 
-If you need to add new markup, update array in `htmlfiles.js` and create new file in `src/markup/`
+<!-- If you need to add new markup, update array in `htmlfiles.js` and create new file in `src/markup/`
 
-No need to add link rel or script tags in your markup, they will be injected via webpack.
+No need to add link rel or script tags in your markup, they will be injected via webpack. -->

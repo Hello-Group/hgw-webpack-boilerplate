@@ -9,6 +9,8 @@ const happyThreadPool = HappyPack.ThreadPool({ size: 4 });
 const pathToSrc = `${__dirname}/src/`
 const NODE_MODULES = /(node_modules|bower_components)/;
 
+const fs = require('fs');
+
 const devServer = () => {
   return {
     contentBase: path.join(`${__dirname}/src/`),
